@@ -159,3 +159,13 @@ and here is the RDF it creates...
 	<http://localhost:4567/data/rdf/cheesy> <http://localhost:4567/apps/lexinv/spec.html#synonym> <http://localhost:4567/data/rdf/ld_id/corny>
 	<http://localhost:4567/data/rdf/cheesy> <http://localhost:4567/apps/lexinv/spec.html#synonym> <http://localhost:4567/data/rdf/ld_id/cornball>
 	<http://localhost:4567/data/rdf/cheesy> <http://localhost:4567/apps/lexinv/spec.html#word>    "cheesy"
+
+### App Authorization
+Ensure JSON data is only being written to your JackSON server by approved JackSON apps.
+
+Some helpful reading.
+
+* (Securing web-services) [ http://blog.cloudfoundry.org/2012/10/09/securing-restful-web-services-with-oauth2/ ]
+* (oauth2-provider) [ https://github.com/songkick/oauth2-provider ]
+
+### User Identity
